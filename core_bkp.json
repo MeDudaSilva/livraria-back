@@ -1,0 +1,1703 @@
+MODE: DEVELOPMENT 
+MEDIA_URL: http://191.52.55.42:19003/media/ 
+DATABASE: {'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': PosixPath('/home/maria.silva.73/livraria-back-3/db.sqlite3')}}
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-02-26T14:17:16.315Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "b@b.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-02-26T14:17:35.359Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "b@b.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-03-04T14:28:20.665Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Categoria object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-03-04T14:28:43.686Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Categoria object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-03-04T14:31:37.043Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Categoria object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-03-04T14:49:36.593Z",
+    "user": 2,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "b@b.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-03-15T17:21:39.495Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Teste (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-03-15T17:39:21.500Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Back (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-03-18T13:43:33.583Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "c@c.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-03-18T15:02:05.516Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Wanner duda@gmail.com 1 ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-03-25T14:23:40.820Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": ",kgpkothpkm duda@gmail.com 2 ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-29T14:25:35.436Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) Biblia da pastoral (10000000)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-29T14:26:45.487Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) Biblia da pastoral (10000000000)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Quantidade\", \"Preco\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-29T14:27:40.744Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) Biblia da pastoral (10000000000)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Isbt\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-29T14:28:32.327Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "CATOLICA (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-29T14:30:14.035Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Vaticano http://igrejadecristo.com/ 8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-29T14:31:40.092Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Jesus Cristo jesuscatolico@vive.com 6 ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-08-05T13:45:24.205Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) Biblia da sagrada (35)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-08-05T13:45:45.957Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) Biblia sagrada (35)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-08-05T13:55:32.783Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Pedro tuespedro@como.pedra 7 ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-08-05T13:55:47.594Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) R$50.00 Biblia sagrada CATOLICA (7) Vaticano http://igrejadecristo.com/ 8 (35)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autor\", \"Coautor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-08-12T13:45:41.970Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) R$50.00 Biblia sagrada CATOLICA (7) Vaticano http://igrejadecristo.com/ 8 (35)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-08-12T13:51:30.383Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) R$50.00 Biblia sagrada CATOLICA (7) Vaticano http://igrejadecristo.com/ 8 (35)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autores\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-08-12T13:52:10.671Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) R$50.00 Biblia sagrada CATOLICA (7) core.Autor.None Vaticano http://igrejadecristo.com/ 8 (35)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-08-12T14:15:30.641Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "CNBB https://www.edicoescnbb.com.br/?gad_source=1&gclid=Cj0KCQjw5ea1BhC6ARIsAEOG5pzyXBSCueGrdNMYpUZMY_OwY549nEQ5PSl8g6Kn8bxJnW2521b2UxQaAhgTEALw_wcB 9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-08-12T14:15:30.864Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "CNBB https://www.edicoescnbb.com.br/?gad_source=1&gclid=Cj0KCQjw5ea1BhC6ARIsAEOG5pzyXBSCueGrdNMYpUZMY_OwY549nEQ5PSl8g6Kn8bxJnW2521b2UxQaAhgTEALw_wcB 10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-08-12T14:18:51.410Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Catolicos catolicos123@gmail.com 8 ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-08-12T14:20:02.389Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "(3) R$100 Catecismo da igreja catolica CATOLICA (7) core.Autor.None CNBB https://www.edicoescnbb.com.br/?gad_source=1&gclid=Cj0KCQjw5ea1BhC6ARIsAEOG5pzyXBSCueGrdNMYpUZMY_OwY549nEQ5PSl8g6Kn8bxJnW2521b2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-08-12T14:20:02.548Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "(4) R$100 Catecismo da igreja catolica CATOLICA (7) core.Autor.None CNBB https://www.edicoescnbb.com.br/?gad_source=1&gclid=Cj0KCQjw5ea1BhC6ARIsAEOG5pzyXBSCueGrdNMYpUZMY_OwY549nEQ5PSl8g6Kn8bxJnW2521b2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-08-16T17:40:23.970Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": " - 9180e0bd-8219-463a-9ed7-edb3ab38fa41",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-08-16T17:40:26.988Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": " - 9180e0bd-8219-463a-9ed7-edb3ab38fa41",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-08-16T17:40:49.356Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "sagrado coração de maria - 9180e0bd-8219-463a-9ed7-edb3ab38fa41",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-08-16T17:41:09.031Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) R$50.00 Biblia da pastoral ROMANCE (1) core.Autor.None Teste http://localhost:3000/ 1 (10000000000)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-08-16T17:55:03.639Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Biblia da pastoral - dc88cb48-5309-420a-b4a3-ec6692026384",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-08-16T17:55:24.692Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Biblia da pastoral - dc88cb48-5309-420a-b4a3-ec6692026385",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-08-16T17:55:35.160Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Biblia da pastoral - dc88cb48-5309-420a-b4a3-ec6692026385",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-08-16T17:55:44.037Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) R$50.00 - Biblia da pastoral - CATEGORIA:ROMANCE (1) - EDITORA:Teste 1 - (10000000000)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-08-16T17:55:49.134Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) R$50.00 - Biblia sagrada - CATEGORIA:CATOLICA (7) - EDITORA:Vaticano 8 - (35)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-08-19T13:48:06.459Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Wanner 1 ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-08-19T13:48:10.779Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": ",kgpkothpkm 2 ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-08-19T13:48:13.906Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "gdsf 3 ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-08-19T13:48:17.299Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "gdsf 4 ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-08-19T13:48:20.627Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "dgah 5 ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-08-19T13:48:28.523Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "FSG (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-08-19T13:48:32.539Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "DAHORA (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-08-19T13:48:36.861Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "RUST (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-08-19T13:48:58.049Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) R$50.00 - Biblia da pastoral - CATEGORIA:ROMANCE (1) - EDITORA:None - (10000000000)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Editora\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-08-19T13:49:02.732Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Teste 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-08-19T13:49:06.452Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Book 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-08-19T13:49:09.308Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "teste 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-08-19T13:49:12.036Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "nada 4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-08-19T13:49:14.883Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "gg 5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-08-19T13:49:17.845Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "me 6",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-08-19T13:49:21.117Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "me 6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-08-19T13:49:24.700Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "fyjfjrd 7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-08-19T13:49:36.576Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "CNBB 9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-08-19T13:49:48.317Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "(4) R$100.00 - Catecismo da igreja catolica - CATEGORIA:CATOLICA (7) - EDITORA:CNBB 10 - (15344)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-08-19T13:50:08.332Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) R$50.00 - Biblia da pastoral - CATEGORIA:ROMANCE (1) - EDITORA:Vaticano 8 - (10000000000)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Editora\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-08-19T13:54:58.475Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": " - 8c543437-8fc0-41e9-9d62-6ef500873830",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-08-19T13:55:10.074Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Missal romano - 8c543437-8fc0-41e9-9d62-6ef500873830",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-08-19T13:55:58.182Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "(5) R$617.12 - Missal romano - CATEGORIA:CATOLICA (7) - EDITORA:CNBB 10 - (339)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-08-19T13:57:43.491Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Stephen-King 9 ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-08-19T13:57:58.586Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "TERROR (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-08-19T13:58:55.763Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Suma; 1ª edição (24 julho 2014) 11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-08-19T13:59:52.881Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "(6) R$72 - It: A coisa - CATEGORIA:TERROR (8) - EDITORA:Suma; 1ª edição (24 julho 2014) 11 - (86)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-08-19T14:00:36.433Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "It - a coisa - f0bc3d45-78d7-4bf1-806c-e76fd69dad7a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-08-19T14:00:45.066Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "(6) R$72.00 - It: A coisa - CATEGORIA:TERROR (8) - EDITORA:Suma; 1ª edição (24 julho 2014) 11 - (86)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 7,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 7,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 7,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 7,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add editora",
+    "content_type": 8,
+    "codename": "add_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change editora",
+    "content_type": 8,
+    "codename": "change_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete editora",
+    "content_type": 8,
+    "codename": "delete_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view editora",
+    "content_type": 8,
+    "codename": "view_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add autor",
+    "content_type": 9,
+    "codename": "add_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change autor",
+    "content_type": 9,
+    "codename": "change_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete autor",
+    "content_type": 9,
+    "codename": "delete_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view autor",
+    "content_type": 9,
+    "codename": "view_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add livro",
+    "content_type": 10,
+    "codename": "add_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change livro",
+    "content_type": 10,
+    "codename": "change_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete livro",
+    "content_type": 10,
+    "codename": "delete_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view livro",
+    "content_type": 10,
+    "codename": "view_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "editora"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "autor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "livro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "00730g15nji7i09373j2xxgeeav5ecvf",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hD-8Fy67xnI40GlamhS2pXx7oakC93OTObNIh57jUcvW1wyuzLJLr8sIT1LGyI_sN1XTmvbtyXxkfDTdj6tubxuZ_s3qNjr2DoiVwBc0SngnA0QJgs-Se1sJtJi9galkgaApBDeWR2EK1Ip8J4C-3wB5sE3Hw:1sYRDv:SrXRUIVW9jLQbo5LrJpSOEGnhde1C3QWj6IvXqJyk50",
+    "expire_date": "2024-08-12T14:19:39.974Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hvf7iogfvi28njp8t86nwpco2g1pbuow",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMyMul-34DYWCQqoGktCvjv2uTLnR7zzn3xULc1hq2QUuYM7swyU6_G8b0oLaDfI_t1nnqbV1m5LvCDzr41DM9r4f7d1DjqN-aYjLWoEwgvVJOC4iaKINQHgoqVwronNEW7yUKcU5QvLEIwqIF54i9P-DYN6I:1rebo1:l6XxafGSEwYFk-7MUBUO8hdjNI9fkCNE1Nu5c5dCuvI",
+    "expire_date": "2024-03-11T14:18:09.636Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ipaajyqm4yj8u9x63zxts6c1o0tm0s6q",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUVNU8cWIztniJzEJgXUSk07Ie4OlTrA-t97_2Uib2uNW5MljsWcjTOn3y1xfsi0g3Ln6TbbPE_rMia7K_agzV7nIs_L4f4dVG71WwuRYwKCPksPim7oECEoK4nvSRM6RK8ekmZySZADQOdpIA2AGcz7A818Nzo:1r55l9:NaiWve-J5cSB6Hz0QGGId5Wqe7YbrnyIETdcYUZFnW8",
+    "expire_date": "2023-12-04T15:00:23.470Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rpw04fxe9lxetd63d6f9kv5idycfju6b",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hD-8Fy67xnI40GlamhS2pXx7oakC93OTObNIh57jUcvW1wyuzLJLr8sIT1LGyI_sN1XTmvbtyXxkfDTdj6tubxuZ_s3qNjr2DoiVwBc0SngnA0QJgs-Se1sJtJi9galkgaApBDeWR2EK1Ip8J4C-3wB5sE3Hw:1rlAvd:58zG1-FHGJ151VFIkyhzp8OSLsebGJf2MfYdrOlvmWY",
+    "expire_date": "2024-03-29T17:01:09.662Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vfjythcu3m3bx86wcubbaobwgr5y7wcr",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hD-8Fy67xnI40GlamhS2pXx7oakC93OTObNIh57jUcvW1wyuzLJLr8sIT1LGyI_sN1XTmvbtyXxkfDTdj6tubxuZ_s3qNjr2DoiVwBc0SngnA0QJgs-Se1sJtJi9galkgaApBDeWR2EK1Ip8J4C-3wB5sE3Hw:1sYRDv:SrXRUIVW9jLQbo5LrJpSOEGnhde1C3QWj6IvXqJyk50",
+    "expire_date": "2024-08-12T14:19:39.807Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vfqm4b0yc7qq0udbtxljz36cgz5tip58",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hD-8Fy67xnI40GlamhS2pXx7oakC93OTObNIh57jUcvW1wyuzLJLr8sIT1LGyI_sN1XTmvbtyXxkfDTdj6tubxuZ_s3qNjr2DoiVwBc0SngnA0QJgs-Se1sJtJi9galkgaApBDeWR2EK1Ip8J4C-3wB5sE3Hw:1sdVtg:1UUB264L3a-0H6dav3VkQ0ySxUEyOeEeLgFZy8znqO0",
+    "expire_date": "2024-08-26T14:19:44.187Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "9180e0bd-8219-463a-9ed7-edb3ab38fa41",
+    "public_id": "a9114e10-62e9-4e78-a0af-ce345925c36d",
+    "file": "images/a9114e10-62e9-4e78-a0af-ce345925c36d.jpg",
+    "description": "sagrado coração de maria",
+    "uploaded_on": "2024-08-16T17:40:23.970Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "dc88cb48-5309-420a-b4a3-ec6692026384",
+    "public_id": "1523e629-1392-4d0a-bb64-a1d564feafbb",
+    "file": "images/1523e629-1392-4d0a-bb64-a1d564feafbb",
+    "description": "Biblia da pastoral",
+    "uploaded_on": "2024-08-16T17:55:03.638Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "8c543437-8fc0-41e9-9d62-6ef500873830",
+    "public_id": "37c0443e-6374-43a2-b21c-71ce9f6f6f45",
+    "file": "images/37c0443e-6374-43a2-b21c-71ce9f6f6f45",
+    "description": "Missal romano",
+    "uploaded_on": "2024-08-19T13:54:58.475Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "f0bc3d45-78d7-4bf1-806c-e76fd69dad7a",
+    "public_id": "40a3e443-9091-4036-a13f-37b90acf0b4a",
+    "file": "images/40a3e443-9091-4036-a13f-37b90acf0b4a.jpg",
+    "description": "It - a coisa",
+    "uploaded_on": "2024-08-19T14:00:36.432Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$PwpuaxD5zSeX6dYkENJFk2$2hzFPsFlKk4yw2VncKvDAwkuTxqRaHSKDbvtjfXpd1s=",
+    "last_login": "2024-08-12T14:19:44.129Z",
+    "is_superuser": true,
+    "email": "a@a.com",
+    "name": "Super User",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$yjqFFWRQZccohnBnj0pu9H$CvFFckKraWz7W7OWfvm34kpup3slNTXpONV5ZiybWc8=",
+    "last_login": "2024-02-26T14:18:09.586Z",
+    "is_superuser": true,
+    "email": "b@b.com",
+    "name": "Eduarado",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$4uAK94T9Dsprfm0QFe1ztG$8RKFXan2y1mry49+svbwrBSQCtgGMNcgk1mbZ8BFVfM=",
+    "last_login": null,
+    "is_superuser": true,
+    "email": "c@c.com",
+    "name": "Duda",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "Romance"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 5,
+  "fields": {
+    "descricao": "comedia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 7,
+  "fields": {
+    "descricao": "Catolica"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 8,
+  "fields": {
+    "descricao": "Terror"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 8,
+  "fields": {
+    "nome": "Vaticano",
+    "site": "http://igrejadecristo.com/"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 10,
+  "fields": {
+    "nome": "CNBB",
+    "site": "https://www.edicoescnbb.com.br/?gad_source=1&gclid=Cj0KCQjw5ea1BhC6ARIsAEOG5pzyXBSCueGrdNMYpUZMY_OwY549nEQ5PSl8g6Kn8bxJnW2521b2UxQaAhgTEALw_wcB"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 11,
+  "fields": {
+    "nome": "Suma; 1ª edição (24 julho 2014)",
+    "site": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 6,
+  "fields": {
+    "nome": "Jesus Cristo",
+    "email": "jesuscatolico@vive.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 7,
+  "fields": {
+    "nome": "Pedro",
+    "email": "tuespedro@como.pedra"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 8,
+  "fields": {
+    "nome": "Catolicos",
+    "email": "catolicos123@gmail.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 9,
+  "fields": {
+    "nome": "Stephen-King",
+    "email": null
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "Biblia da pastoral",
+    "isbt": "9788505010991",
+    "quantidade": 10000000000,
+    "preco": "50.00",
+    "categoria": 1,
+    "editora": 8,
+    "capa": 2,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 2,
+  "fields": {
+    "titulo": "Biblia sagrada",
+    "isbt": "9788505010991",
+    "quantidade": 35,
+    "preco": "50.00",
+    "categoria": 7,
+    "editora": 8,
+    "capa": 1,
+    "autores": [
+      6
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 3,
+  "fields": {
+    "titulo": "Catecismo da igreja catolica",
+    "isbt": "6559750981",
+    "quantidade": 15344,
+    "preco": "100.00",
+    "categoria": 7,
+    "editora": 10,
+    "capa": null,
+    "autores": [
+      8
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 5,
+  "fields": {
+    "titulo": "Missal romano",
+    "isbt": "6559751732",
+    "quantidade": 339,
+    "preco": "617.12",
+    "categoria": 7,
+    "editora": 10,
+    "capa": 4,
+    "autores": [
+      8
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 6,
+  "fields": {
+    "titulo": "It: A coisa",
+    "isbt": "8560280944",
+    "quantidade": 86,
+    "preco": "72.00",
+    "categoria": 8,
+    "editora": 11,
+    "capa": 5,
+    "autores": [
+      9
+    ]
+  }
+}
+]
