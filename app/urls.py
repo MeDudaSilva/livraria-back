@@ -14,6 +14,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from core.views import (
     AutorViewSet,
     CategoriaViewSet,
+    CompraViewSet
     EditoraViewSet,
     LivroViewSet,
     UserViewSet,
@@ -23,6 +24,7 @@ from uploader.router import router as uploader_router
 router = DefaultRouter()
 
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
+router.register(r"compras", CompraViewSet, basename="compra")
 router.register(r"editoras", EditoraViewSet, basename="editoras")
 router.register(r"users", UserViewSet, basename="users")
 router.register(r"autores", AutorViewSet, basename="autores")
@@ -45,7 +47,7 @@ urlpatterns = [
     # Simple JWT
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
-    #Uploader
+    # Uploader
     path("api/media/", include(uploader_router.urls)),
     # API
     path("api/", include(router.urls)),
