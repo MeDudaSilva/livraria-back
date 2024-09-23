@@ -1,10 +1,12 @@
 from rest_framework.serializers import (
     CharField,
-    CurrentUserDefault, # novo
-    HiddenField, # novo
+    CurrentUserDefault,
+    HiddenField,
     ModelSerializer,
     SerializerMethodField,
+    ValidationError,
 )
+
 from core.models import Compra, ItensCompra
 
 
@@ -19,6 +21,7 @@ class ItensCompraSerializer(ModelSerializer):
         fields = ("livro", "quantidade", "total")
         depth = 1
 
+
 class CompraSerializer(ModelSerializer):
     usuario = CharField(source="usuario.email", read_only=True)
     status = CharField(source="get_status_display", read_only=True)
@@ -27,11 +30,18 @@ class CompraSerializer(ModelSerializer):
     class Meta:
         model = Compra
         fields = ("id", "usuario", "status", "total", "itens")
-        
+
+
 class CriarEditarItensCompraSerializer(ModelSerializer):
     class Meta:
         model = ItensCompra
-        fields = ("livro", "quantidade")        
+        fields = ("livro", "quantidade")
+
+    def validate(self, data):
+        if data["quantidade"] > data["livro"].quantidade:
+            raise ValidationError("Quantidade de itens maior do que a quantidade em estoque.")
+        return data
+
 
 class CriarEditarCompraSerializer(ModelSerializer):
     itens = CriarEditarItensCompraSerializer(many=True)
